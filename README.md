@@ -47,3 +47,18 @@ Create Application
 Command: expo init myfirstapp or Pull code from GitHub
 
 Start App Command: npm start
+
+GitHub Setup
+--------------------
+1. Download https://git-scm.com/downloads
+2. Open Git Bash
+3. Set your Username
+	git config user.name "kisiddharthan"
+4. Set your email
+	git config user.email "ki.siddharthan@gmail.com"
+5. Add Repository
+	git remote add origin https://github.com/kisiddharthan/myfirstapp.git
+6. Pull code from GitHub - recommended before any code changes
+	git pull origin master
+7. Push code to GitHub
+  git push -u origin master
